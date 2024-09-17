@@ -35,3 +35,217 @@ body {
   color: aqua;
   text-shadow: 0px 0px 20px aqua;
 }
+
+.main-box {
+  border: 1px solid black;
+  position: relative;
+  height: 600px;
+  width: 100%;
+  margin-top: 20px;
+}
+.cart-01 {
+  width: 50%;
+  height: 300px;
+  background-color: red;
+  position: absolute;
+}
+
+#cart-01-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  color: white;
+  border-bottom-right-radius: 100px;
+}
+
+#cart-01-center-circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#cart-01-center-square {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#cart-01-circle-edge {
+  position: absolute;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  right: 0;
+  border-bottom-left-radius: 100px;
+}
+.cart-02 {
+  width: 50%;
+  height: 300px;
+  background-color: green;
+  position: absolute;
+  right: 0;
+}
+#cart-02-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  color: white;
+  border-bottom-left-radius: 100px;
+}
+
+#cart-02-center-circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#cart-02-center-square {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#cart-02-circle-edge {
+  position: absolute;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  left: 0;
+  border-bottom-right-radius: 100px;
+}
+.cart-03 {
+  width: 50%;
+  height: 300px;
+  background-color: yellow;
+ position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#cart-03-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-top-right-radius:  100px;
+}
+
+#cart-03-center-circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#cart-03-center-square {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#cart-03-circle-edge {
+  position: absolute;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  right: 0;
+  bottom: 0;
+  border-top-left-radius: 100px;
+}
+.cart-04 {
+  width: 50%;
+  height: 300px;
+  background-color: purple;
+ position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#cart-04-content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-top-left-radius:  100px;
+}
+
+#cart-04-center-circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#cart-04-center-square {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#cart-04-circle-edge {
+  position: absolute;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  left: 0;
+  bottom: 0;
+  border-top-right-radius: 100px;
+}
+#main-center-box{
+  position: absolute;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#main-center-box-inner-circle{
+  position: absolute;
+  background-color: red; 
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%; 
+}
