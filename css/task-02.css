@@ -1,0 +1,130 @@
+/* body {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "SUSE", sans-serif;
+}
+.title {
+  text-align: center;
+  margin-left: -20px;
+  margin-top: -8px;
+  margin-right: 120px;
+}
+.title img {
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.navigation nav {
+  margin-top: 0;
+  background: #101036;
+  padding: 20px;
+  margin: 0 -20px;
+  box-shadow: 0px 5px 10px black;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+.navigation nav a {
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-right: 85px;
+  margin-left: 100px;
+}
+
+.navigation nav a:hover {
+  color: aqua;
+  text-shadow: 0px 0px 20px aqua;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.nav-bar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    position: absolute;
+    background-color: #4B0082;
+    padding: 20px;
+    height: 90%;
+    float: left;    
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Content */
+.content {
+    margin-left: 220px; /* To prevent overlap with sidebar */
+    padding: 20px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.image-box {
+    width: 40%;
+    border: 2px solid green;
+}
+
+.image-box img {
+    width: 100%;
+}
+
+/* Text section */
+.text-section {
+    background-color: white;
+    padding: 20px;
+    border: 0px solid #ddd;
+    text-align: justify;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    position: relative;
+    bottom: 0;
+    width: auto;
+}
