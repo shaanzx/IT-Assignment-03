@@ -1,7 +1,9 @@
-/* body {
-  margin-left: 20px;
-  margin-right: 20px;
-  font-family: "SUSE", sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
+  border: 1px solid black;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
 }
 .title {
   text-align: center;
@@ -35,96 +37,92 @@
 .navigation nav a:hover {
   color: aqua;
   text-shadow: 0px 0px 20px aqua;
-} */
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
-    border: 1px solid black;
-    position: relative;
-    box-sizing: border-box;
-    height: 100%;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid black;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: white;
-    border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 2px solid black;
 }
 
 .logo img {
-    width: 120px;
+  width: 120px;
 }
 
 .nav-bar a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
-/* Sidebar */
 .sidebar {
-    width: 200px;
-    position: absolute;
-    background-color: #4B0082;
-    padding: 20px;
-    height: 90%;
-    float: left;    
+  width: 200px;
+  position: absolute;
+  background-color: #4b0082;
+  padding: 20px;
+  height: 85%;
+  float: left;
 }
 
 .sidebar ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .sidebar ul li {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .sidebar ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-/* Content */
 .content {
-    margin-left: 220px; /* To prevent overlap with sidebar */
-    padding: 20px;
+  margin-left: 220px; 
+  padding: 20px;
 }
 
 .image-section {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 .image-box {
-    width: 40%;
-    border: 2px solid green;
+  width: 40%;
+  border: 2px solid green;
 }
 
 .image-box img {
-    width: 100%;
+  width: 100%;
 }
 
-/* Text section */
 .text-section {
-    background-color: white;
-    padding: 20px;
-    border: 0px solid #ddd;
-    text-align: justify;
+  background-color: white;
+  padding: 20px;
+  border: 0px solid #ddd;
+  text-align: justify;
 }
 
-/* Footer */
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #ddd;
-    position: relative;
-    bottom: 0;
-    width: auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #ddd;
+  position: relative;
+  bottom: 0;
+  width: auto;
 }
