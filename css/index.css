@@ -40,7 +40,9 @@ body {
   line-height: 1.75;
   padding: 50px 100px;
 }
-
+.navigation{
+  position: sticky; top: 0;
+}
 .navigation nav {
     margin-top: 0;
     background: #101036;
