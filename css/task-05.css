@@ -1,0 +1,102 @@
+body,
+p {
+  margin: 0;
+  font-family: "SUSE", sans-serif;
+}
+.nav-bar {
+  text-align: center;
+  margin-left: -20px;
+  margin-top: -8px;
+  margin-right: 120px;
+}
+.nav-bar img {
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.navigation {
+  position: sticky;
+  top: 0;
+}
+.navigation nav {
+  margin-top: 0;
+  background: #101036;
+  padding: 20px;
+  margin: 0 -20px;
+  box-shadow: 0px 5px 10px black;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.navigation nav a {
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.navigation nav a:hover {
+  color: aqua;
+  text-shadow: 0px 0px 20px aqua;
+}
+
+.container {
+  border: 1px solid black;
+  margin: 0 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cart {
+  border: 1px solid black;
+  height: 175px;
+}
+
+.box1 {
+  background-color: #fe0000;
+}
+
+.box2 {
+  background-color: #008001;
+}
+
+.box3 {
+  background-color: #ff4500;
+}
+
+.box4 {
+  background-color: #81007f;
+}
+
+.box5 {
+  background-color: #ff1494;
+}
+
+.box6 {
+  background-color: #0000fe;
+}
+
+.box7 {
+  background-color: #a52b2a;
+}
+
+.box8 {
+  background-color: #ee82ef;
+}
+
+.box9 {
+  background-color: #4b0081;
+}
+
+.box10 {
+  background-color: #fed700;
+}
+
+.box11 {
+  background-color: #609da0;
+}
+
+.box12 {
+  background-color: #00ffff;
+}

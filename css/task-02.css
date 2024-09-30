@@ -1,9 +1,7 @@
 body {
-  font-family: "Roboto", sans-serif;
-  border: 1px solid black;
-  position: relative;
-  box-sizing: border-box;
-  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "SUSE", sans-serif;
 }
 .title {
   text-align: center;
@@ -16,8 +14,9 @@ body {
   margin-left: 40px;
   margin-top: 20px;
 }
-.navigation{
-  position: sticky; top: 0;
+.navigation {
+  position: sticky;
+  top: 0;
 }
 .navigation nav {
   margin-top: 0;
@@ -26,28 +25,16 @@ body {
   margin: 0 -20px;
   box-shadow: 0px 5px 10px black;
   font-family: "Roboto", sans-serif;
-  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
 }
 
 .navigation nav a {
   color: rgb(255, 255, 255);
   padding: 5px 10px;
   text-decoration: none;
-  margin-right: 85px;
-  margin-left: 100px;
-}
 
-.navigation nav a:hover {
-  color: aqua;
-  text-shadow: 0px 0px 20px aqua;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  border: 1px solid black;
-  position: relative;
-  box-sizing: border-box;
-  height: 100%;
 }
 
 header {
@@ -94,7 +81,7 @@ header {
 }
 
 .content {
-  margin-left: 220px; 
+  margin-left: 220px;
   padding: 20px;
 }
 

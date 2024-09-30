@@ -24,14 +24,16 @@ body {
   margin: 0 -20px;
   box-shadow: 0px 5px 10px black;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
 }
 
 .navigation nav a {
   color: rgb(255, 255, 255);
   padding: 5px 10px;
   text-decoration: none;
-  margin-right: 85px;
-  margin-left: 100px;
+
 }
 
 .navigation nav a:hover {
