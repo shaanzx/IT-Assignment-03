@@ -14,14 +14,13 @@ p {
   margin-left: 40px;
   margin-top: 20px;
 }
-.navigation{
-  position: sticky; top: 0;
+.navigation {
+  position: sticky;
+  top: 0;
 }
 .navigation nav {
-  margin-top: 0;
   background: #101036;
   padding: 20px;
-  margin: 0 -20px;
   box-shadow: 0px 5px 10px black;
   font-family: "Roboto", sans-serif;
   display: flex;

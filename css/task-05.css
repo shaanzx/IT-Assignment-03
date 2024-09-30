@@ -1,22 +1,21 @@
-body,
-p {
-  margin: 0;
+body {
+  margin-left: 20px;
+  margin-right: 20px;
   font-family: "SUSE", sans-serif;
 }
-.nav-bar {
+.title {
   text-align: center;
   margin-left: -20px;
   margin-top: -8px;
   margin-right: 120px;
 }
-.nav-bar img {
+.title img {
   float: left;
   margin-left: 40px;
   margin-top: 20px;
 }
-.navigation {
-  position: sticky;
-  top: 0;
+.navigation{
+  position: sticky; top: 0;
 }
 .navigation nav {
   margin-top: 0;
@@ -34,6 +33,7 @@ p {
   color: rgb(255, 255, 255);
   padding: 5px 10px;
   text-decoration: none;
+
 }
 
 .navigation nav a:hover {
@@ -43,7 +43,7 @@ p {
 
 .container {
   border: 1px solid black;
-  margin: 0 10px;
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
