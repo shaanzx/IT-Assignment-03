@@ -42,7 +42,7 @@ Connect with me on [GitHub](https://github.com/shaanzx) to check out more of my 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/shaanzx/it-module-assignment-03.git
+   git clone https://github.com/shaanzx/IT-Assignment-03.git
    ```
 2. Open the `index.html` file in your browser to view the assignment.
 3. Feel free to review or modify the code as needed.
