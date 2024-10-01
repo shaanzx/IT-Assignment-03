@@ -100,3 +100,10 @@ body {
 .box12 {
   background-color: #00ffff;
 }
+
+.footer {
+  margin: 150px -20px 0px;
+  text-align: end;
+  padding: 25px;
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+}

@@ -14,8 +14,9 @@ body {
   margin-left: 40px;
   margin-top: 20px;
 }
-.navigation{
-  position: sticky; top: 0;
+.navigation {
+  position: sticky;
+  top: 0;
 }
 .navigation nav {
   margin-top: 0;
@@ -33,7 +34,6 @@ body {
   color: rgb(255, 255, 255);
   padding: 5px 10px;
   text-decoration: none;
-
 }
 
 .navigation nav a:hover {
@@ -61,62 +61,79 @@ header {
   font-weight: bold;
 }
 
-.sidebar {
-  width: 200px;
+section {
+  position: relative;
+  display: flex;
+  height: fit-content;
+  background-color: rgb(55, 2, 104);
+}
+
+.side-bar {
+  height: 100%;
+  width: 15%;
+}
+
+.side-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   position: absolute;
-  background-color: #4b0082;
-  padding: 20px;
-  height: 85%;
-  float: left;
+  top: 5%;
 }
 
-.sidebar ul {
-  list-style-type: none;
+.side-navigation li {
+  list-style: none;
+  text-align: left;
 }
 
-.sidebar ul li {
-  margin-bottom: 20px;
-}
-
-.sidebar ul li a {
-  color: white;
+.side-navigation li a {
+  font-size: 1.1rem;
   text-decoration: none;
-  font-weight: bold;
+  color: white;
 }
 
 .content {
-  margin-left: 220px;
-  padding: 20px;
-}
-
-.image-section {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  margin-left: 10px;
-}
-
-.image-box {
-  width: 40%;
-  border: 2px solid green;
-}
-
-.image-box img {
-  width: 100%;
-}
-
-.text-section {
+  position: relative;
+  height: fit-content;
+  min-height: 85vh;
+  width: 85%;
+  margin-top: 5px;
+  padding: 5px 30px;
   background-color: white;
-  padding: 20px;
-  border: 0px solid #ddd;
-  text-align: justify;
+}
+
+.image-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.content-image {
+  width: 33.3%;
+  border: 1px solid black;
+}
+
+.content p {
+  font-size: 1rem;
 }
 
 footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #ddd;
   position: relative;
-  bottom: 0;
-  width: auto;
+  height: 60px;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+}
+
+.footer {
+  margin: 150px -20px 0px;
+  text-align: end;
+  padding: 25px;
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
 }

@@ -102,3 +102,10 @@ body {
   top: 75%;
   text-align: center;
 }
+
+.footer {
+  margin: 150px -20px 0px;
+  text-align: end;
+  padding: 25px;
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+}

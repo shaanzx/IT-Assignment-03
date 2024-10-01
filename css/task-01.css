@@ -14,8 +14,9 @@ body {
   margin-left: 40px;
   margin-top: 20px;
 }
-.navigation{
-  position: sticky; top: 0;
+.navigation {
+  position: sticky;
+  top: 0;
 }
 .navigation nav {
   margin-top: 0;
@@ -33,7 +34,6 @@ body {
   color: rgb(255, 255, 255);
   padding: 5px 10px;
   text-decoration: none;
-
 }
 
 .navigation nav a:hover {
@@ -144,7 +144,7 @@ body {
   width: 50%;
   height: 300px;
   background-color: yellow;
- position: absolute;
+  position: absolute;
   left: 0;
   bottom: 0;
 }
@@ -155,7 +155,7 @@ body {
   height: 100px;
   width: 100px;
   background-color: white;
-  border-top-right-radius:  100px;
+  border-top-right-radius: 100px;
 }
 
 #cart-03-center-circle {
@@ -191,7 +191,7 @@ body {
   width: 50%;
   height: 300px;
   background-color: purple;
- position: absolute;
+  position: absolute;
   right: 0;
   bottom: 0;
 }
@@ -202,7 +202,7 @@ body {
   height: 100px;
   width: 100px;
   background-color: white;
-  border-top-left-radius:  100px;
+  border-top-left-radius: 100px;
 }
 
 #cart-04-center-circle {
@@ -234,7 +234,7 @@ body {
   bottom: 0;
   border-top-right-radius: 100px;
 }
-#main-center-box{
+#main-center-box {
   position: absolute;
   background-color: white;
   width: 150px;
@@ -244,13 +244,20 @@ body {
   transform: translate(-50%, -50%);
 }
 
-#main-center-box-inner-circle{
+#main-center-box-inner-circle {
   position: absolute;
-  background-color: red; 
+  background-color: red;
   width: 100px;
   height: 100px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 50%; 
+  border-radius: 50%;
+}
+
+.footer {
+  margin: 150px -20px 0px;
+  text-align: end;
+  padding: 25px;
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
 }
